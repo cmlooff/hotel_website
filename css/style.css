@@ -1,0 +1,64 @@
+/** Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Border-Box -> So that padding doesn't add to box size */
+}
+
+/** Main Styling */
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  /* Adds spacing between the lines -> home, about, contact*/
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  /* No underline on links */
+}
+
+h1,
+h1,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/** Navbar */
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  /* Removes list dot */
+  float: right;
+}
+
+#navbar ul li {
+  float: left
+}
+
+#navbar ul li a {
+  display: block;
+  /* Allows for padding */
+  padding: 20px;
+  text-align: center;
+}
